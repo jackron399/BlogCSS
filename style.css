@@ -6,8 +6,91 @@ body {
     border-top: 10px solid #242424;
     background: #fff;
 }
+.sticky, .foot{
+    padding: 20px;
+}
+
+.sticky {
+    background: #00ff90;
+    position: sticky;
+    top: 0;
+}
+
+.foot {
+    margin-top: 40px;
+    background: #00ff90;
+
+}
 
 p {
     line-height: 1.4em;
     width:600px;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    background: #999;
+    padding: 20px;
+    margin: 20px;
+}
+
+#VoidrayBlog {
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;    
+}
+
+#VoidrayCounterBlog {
+    border-bottom: 1px dotted #ccc;
+    flex: 3;
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+    float: right;
+}
+
+#tc1 {
+    color: red;
+}
+
+#tc2 {
+    color: dodgerblue;
+}
+
+#tc3 { 
+    color: limegreen;
+}
+
+#tc4 { 
+    color: sandybrown;
+}
+
+#gamepic {
+    padding-top: 40px;
+}
+
+.gameList {
+    background: #999;
+    width: 500px;
+}
+
+#gameTable {
+    width: 400px;
+}
+
+#gameListHead {
+    padding-left: 150px;
+}
+
+#Title {
+    padding-left: 100px;
+}
+
+#Date {
+    padding-left: 40px;
 }

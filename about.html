@@ -7,46 +7,52 @@
     <title>About</title>
 </head>
 <body>
-    <header>
-        <h1> Units </h1>
-        <p> Information About Units In Starcraft 2 </p>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact us</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="sticky">
+        <header>
+
+            <h1> Units </h1>
+            <p> Information About Units In Starcraft 2 </p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </nav>
+
+        </header>
+    </div>
 
     <h2>About Me</h2>
     <p>
         I am a student at Michigan State University who has experience coding in C++, C#, and Python. I am currently learning web design and HTML 5. I have experience playing and making all kinds of games. I currently have experience in the Unity engine and hope to learn a little bit of Unreal as well. I am also trying to think of some good projects to make with Raspberry Pi.
     </p>
-    <h3>Favorite Games List</h3>
-    <table>
-        <tr>
-            <th>Game</th>
-            <th>Release Date</th>
-        </tr>
-        <tr>
-            <td>Starcraft 2</td>
-            <td>2010</td>
-        </tr>
-        <tr>
-            <td>Kingdom Hearts 2</td>
-            <td>2005</td>
-        </tr>
-        <tr>
-            <td>Bloodborne</td>
-            <td>2015</td>
-        </tr>
-        <tr>
-            <td>Halo 3</td>
-            <td>2007</td>
-        </tr>
-    </table>
+    <div class="gameList">
+        <h3 id="gameListHead">Favorite Games List</h3>
+        <table id="gameTable">
+            <tr>
+                <th>Game</th>
+                <th>Release Date</th>
+            </tr>
+            <tr>
+                <td id="Title">Starcraft 2</td>
+                <td id="Date">2010</td>
+            </tr>
+            <tr>
+                <td id="Title">Kingdom Hearts 2</td>
+                <td id="Date">2005</td>
+            </tr>
+            <tr>
+                <td id="Title">Bloodborne</td>
+                <td id="Date">2015</td>
+            </tr>
+            <tr>
+                <td id="Title">Halo 3</td>
+                <td id="Date">2007</td>
+            </tr>
+        </table>
+    </div>
 
-    <img alt="Official Starcraft 2 cover. Has a man in a mechanical suit looking at the camera" src="https://upload.wikimedia.org/wikipedia/en/2/20/StarCraft_II_-_Box_Art.jpg">
+    <img alt="Official Starcraft 2 cover. Has a man in a mechanical suit looking at the camera" src="https://upload.wikimedia.org/wikipedia/en/2/20/StarCraft_II_-_Box_Art.jpg" id="gamepic">
 </body>
 </html>
